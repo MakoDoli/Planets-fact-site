@@ -1,8 +1,6 @@
 import { StyledContainer } from "./Planet.styled";
-
 import source from "../assets/icon-source.svg";
 import { useEffect, useState } from "react";
-
 import { useParams } from "react-router-dom";
 import data from "../../data.json";
 
