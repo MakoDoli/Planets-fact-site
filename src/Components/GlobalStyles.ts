@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import stars from "../../public/assets/background-stars.svg";
 
 export const GlobalStyles = createGlobalStyle`
 *{
@@ -7,7 +8,7 @@ export const GlobalStyles = createGlobalStyle`
   box-sizing: border-box;
 }
 body {
-    background: url('../../public/assets/background-stars.svg'), #070724;
+    background: url(${stars}), #070724;
     
     color: white
     } 
